@@ -1,0 +1,23 @@
+# GET http://localhost:3003/api/blogs/
+# #
+
+# POST http://localhost:3000/api/blogs/
+# content-type: application/json
+
+# {
+#     "title": "java da jew",
+#     "author": "salsa",
+#     "url": "www.simi.wwr",
+#     "likes": "2",
+#     "userId": "62e1be568b892342b3e7a054"
+
+# }
+
+###
+POST http://localhost:3000/api/login/
+content-type: application/json
+
+{
+    "username": "hacker",
+    "password": "indacity"
+}
